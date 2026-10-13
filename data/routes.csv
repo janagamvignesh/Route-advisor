@@ -1,0 +1,143 @@
+route_id,shipment_id,mode,service,path,n_legs,cost_usd,transit_days,delay_prob,avg_delay_days,congestion,geo_risk
+R001,S001,ocean,Ocean - direct,Shanghai > Jebel Ali Hub > Rotterdam,2,2840.6827,33.022,0.4359,6.8687,0.5503,0.5493
+R002,S001,ocean,Ocean - reliable hubs,Shanghai > Busan Hub > Rotterdam,2,2943.5193,32.1481,0.1394,2.865,0.3649,0.1776
+R003,S001,air,Air express,Shanghai > Rotterdam,1,14004.0323,3.145,0.01,1.5584,0.1947,0.0971
+R004,S002,ocean,Ocean - direct,Shenzhen > Colombo Hub > Hamburg,2,3752.5125,29.9769,0.3964,5.1678,0.7487,0.1614
+R005,S002,ocean,Ocean - reliable hubs,Shenzhen > Piraeus > Hamburg,2,4136.2937,34.8207,0.0864,2.2821,0.4373,0.1003
+R006,S002,ocean,Ocean - chokepoint shortcut,Shenzhen > Strait of Hormuz > Hamburg,2,3369.9441,29.7948,0.2148,4.4069,0.3582,0.5131
+R007,S002,sea_air,Sea-air combo,Shenzhen > Piraeus > Hamburg,2,8417.8671,14.4091,0.111,1.8253,0.4669,0.2264
+R008,S003,ocean,Ocean - direct,Shanghai > Los Angeles Hub > Los Angeles,2,1583.7921,18.3491,0.521,7.6281,0.8828,0.0495
+R009,S003,ocean,Ocean - reliable hubs,Shanghai > Salalah > Los Angeles,2,1759.9272,20.0541,0.0908,2.6322,0.1385,0.1528
+R010,S003,ocean,Ocean - chokepoint shortcut,Shanghai > Black Sea > Los Angeles,2,1438.3278,14.7548,0.3235,5.0997,0.2997,0.708
+R011,S003,sea_air,Sea-air combo,Shanghai > Colombo > Los Angeles,2,3731.2081,8.9995,0.1863,3.216,0.5619,0.1707
+R012,S004,ocean,Ocean - direct,Shenzhen > Jebel Ali Hub > Hamburg,2,2701.9913,33.3303,0.3124,4.9106,0.454,0.3109
+R013,S004,ocean,Ocean - reliable hubs,Shenzhen > Colombo > Hamburg,2,3332.4463,36.6033,0.1146,3.7638,0.3841,0.3213
+R014,S004,ocean,Ocean - chokepoint shortcut,Shenzhen > Black Sea > Hamburg,2,3005.5327,29.3817,0.2491,6.325,0.3957,0.9246
+R015,S004,sea_air,Sea-air combo,Shenzhen > Colombo > Hamburg,2,6767.5182,14.1539,0.0548,1.4973,0.446,0.3296
+R016,S005,ocean,Ocean - direct,Rotterdam > Port Klang > New York,2,981.8886,11.3116,0.4471,4.7503,0.8568,0.078
+R017,S005,ocean,Ocean - reliable hubs,Rotterdam > Piraeus > New York,2,1051.9401,11.0198,0.1324,2.4868,0.3321,0.0396
+R018,S005,ocean,Ocean - chokepoint shortcut,Rotterdam > Black Sea > New York,2,886.8534,10.166,0.214,7.9664,0.5868,0.6616
+R019,S006,ocean,Ocean - direct,Rotterdam > Los Angeles Hub > New York,2,1652.9598,10.8553,0.4004,5.893,0.8283,0.0
+R020,S006,ocean,Ocean - reliable hubs,Rotterdam > Singapore > New York,2,2229.6634,11.4077,0.0381,3.3673,0.3584,0.0445
+R021,S006,ocean,Ocean - chokepoint shortcut,Rotterdam > Strait of Hormuz > New York,2,1463.2475,9.7742,0.2831,3.9609,0.4359,0.8514
+R022,S007,ocean,Ocean - direct,Mumbai > Jebel Ali Hub > Mombasa,2,1333.5585,7.7073,0.4695,5.2327,0.4427,0.3559
+R023,S007,ocean,Ocean - reliable hubs,Mumbai > Cape Town > Mombasa,2,1684.7595,8.2692,0.1538,3.0348,0.1035,0.2671
+R024,S007,ocean,Ocean - chokepoint shortcut,Mumbai > Strait of Hormuz > Mombasa,2,1303.4371,7.7334,0.3411,5.345,0.3872,0.8627
+R025,S007,sea_air,Sea-air combo,Mumbai > Salalah > Mombasa,2,3232.6226,5.5308,0.1872,1.8152,0.3142,0.0276
+R026,S008,ocean,Ocean - direct,Shenzhen > Jebel Ali Hub > Hamburg,2,1837.2658,33.2677,0.5677,4.4211,0.5319,0.2962
+R027,S008,ocean,Ocean - reliable hubs,Shenzhen > Piraeus > Hamburg,2,1996.1785,30.2626,0.2177,3.3559,0.4932,0.0649
+R028,S008,sea_air,Sea-air combo,Shenzhen > Singapore > Hamburg,2,4400.5542,14.6836,0.2108,2.3637,0.4812,0.1532
+R029,S009,ocean,Ocean - direct,Shanghai > Port Klang > Rotterdam,2,2461.2296,27.5646,0.4232,4.7661,0.757,0.1373
+R030,S009,ocean,Ocean - reliable hubs,Shanghai > Cape Town > Busan Hub > Rotterdam,3,3215.3745,34.7374,0.1956,2.321,0.3511,0.0517
+R031,S009,sea_air,Sea-air combo,Shanghai > Salalah > Rotterdam,2,5628.8472,13.6843,0.1353,3.0751,0.2827,0.2338
+R032,S009,air,Air express,Shanghai > Rotterdam,1,11983.3337,3.1162,0.0418,2.0029,0.0,0.0
+R033,S010,ocean,Ocean - direct,Singapore > Los Angeles Hub > Rotterdam,2,1691.256,24.9079,0.451,3.7491,0.7169,0.1469
+R034,S010,ocean,Ocean - reliable hubs,Singapore > Salalah > Rotterdam,2,2029.7668,26.1991,0.1899,3.3981,0.3201,0.1514
+R035,S010,sea_air,Sea-air combo,Singapore > Salalah > Rotterdam,2,3980.2108,10.5822,0.2146,2.4369,0.3549,0.1967
+R036,S011,ocean,Ocean - direct,Shanghai > Jebel Ali Hub > Los Angeles,2,1698.2191,17.2263,0.4258,5.4103,0.5926,0.2703
+R037,S011,ocean,Ocean - reliable hubs,Shanghai > Piraeus > Busan Hub > Los Angeles,3,2152.74,20.4785,0.0975,3.5862,0.2101,0.1047
+R038,S011,ocean,Ocean - chokepoint shortcut,Shanghai > Strait of Hormuz > Los Angeles,2,1550.3544,14.1622,0.1183,6.4593,0.4053,0.6167
+R039,S011,sea_air,Sea-air combo,Shanghai > Busan Hub > Los Angeles,2,3834.4848,8.037,0.01,2.0841,0.5862,0.0478
+R040,S011,air,Air express,Shanghai > Frankfurt > Los Angeles,2,7972.1526,3.0603,0.0895,1.3784,0.2799,0.0832
+R041,S012,ocean,Ocean - direct,Mumbai > Port Klang > Felixstowe,2,1455.1453,18.7161,0.4343,4.1262,0.7832,0.0764
+R042,S012,ocean,Ocean - reliable hubs,Mumbai > Singapore > Piraeus > Felixstowe,3,1453.7858,21.8113,0.1433,2.3108,0.5406,0.174
+R043,S012,sea_air,Sea-air combo,Mumbai > Piraeus > Felixstowe,2,3295.8178,9.7024,0.1611,2.1226,0.4185,0.0977
+R044,S013,ocean,Ocean - direct,Singapore > Colombo Hub > Rotterdam,2,2870.1908,24.0215,0.3238,4.2184,0.8309,0.0
+R045,S013,ocean,Ocean - reliable hubs,Singapore > Busan Hub > Cape Town > Rotterdam,3,3114.4438,28.4184,0.2195,2.5622,0.18,0.0
+R046,S013,sea_air,Sea-air combo,Singapore > Busan Hub > Rotterdam,2,6776.4119,11.2484,0.1806,2.7379,0.2156,0.0515
+R047,S013,air,Air express,Singapore > Frankfurt > Rotterdam,2,12824.4901,3.5932,0.1403,1.0092,0.1527,0.0579
+R048,S014,ocean,Ocean - direct,Shanghai > Colombo Hub > Los Angeles,2,940.0643,16.0442,0.3539,5.6139,0.6335,0.0372
+R049,S014,ocean,Ocean - reliable hubs,Shanghai > Cape Town > Los Angeles,2,1026.6246,19.0766,0.1046,2.1745,0.2572,0.316
+R050,S014,sea_air,Sea-air combo,Shanghai > Piraeus > Los Angeles,2,1843.8148,8.9245,0.1158,2.7208,0.5037,0.0
+R051,S015,ocean,Ocean - direct,Rotterdam > Jebel Ali Hub > New York,2,1307.6297,11.1775,0.3542,6.3834,0.5785,0.4569
+R052,S015,ocean,Ocean - reliable hubs,Rotterdam > Cape Town > New York,2,1391.4295,11.1834,0.0626,2.7756,0.1442,0.1815
+R053,S015,ocean,Ocean - chokepoint shortcut,Rotterdam > Black Sea > New York,2,959.0603,8.745,0.2042,4.3782,0.2337,0.6827
+R054,S015,sea_air,Sea-air combo,Rotterdam > Singapore > New York,2,2855.7517,6.0906,0.1575,2.2462,0.3777,0.0104
+R055,S015,air,Air express,Rotterdam > New York,1,5778.0438,1.6831,0.0999,1.2601,0.094,0.1214
+R056,S016,ocean,Ocean - direct,Shanghai > Los Angeles Hub > Los Angeles,2,1656.6312,17.9494,0.4935,4.8944,0.7997,0.1581
+R057,S016,ocean,Ocean - chokepoint shortcut,Shanghai > Red Sea / Suez > Los Angeles,2,1472.6868,14.5202,0.0739,4.5921,0.5038,0.6881
+R058,S016,air,Air express,Shanghai > Los Angeles,1,7593.4579,1.9249,0.0586,1.3111,0.3245,0.056
+R059,S017,ocean,Ocean - direct,Rotterdam > Colombo Hub > New York,2,1836.3153,11.6789,0.364,4.9259,0.668,0.0239
+R060,S017,ocean,Ocean - reliable hubs,Rotterdam > Piraeus > Tanjung Pelepas > New York,3,1826.0017,12.9601,0.0934,2.9595,0.447,0.1648
+R061,S017,air,Air express,Rotterdam > Frankfurt > New York,2,9203.2123,2.729,0.0922,1.5453,0.2807,0.1041
+R062,S018,ocean,Ocean - direct,Shanghai > Port Klang > Chennai,2,1515.8887,12.1651,0.3147,3.7395,0.7934,0.1046
+R063,S018,ocean,Ocean - reliable hubs,Shanghai > Piraeus > Busan Hub > Chennai,3,1702.0173,14.5098,0.2176,1.8147,0.4507,0.3009
+R064,S018,ocean,Ocean - chokepoint shortcut,Shanghai > Black Sea > Chennai,2,1423.4529,10.7218,0.165,5.0288,0.3053,0.7775
+R065,S018,air,Air express,Shanghai > Chennai,1,7781.2171,1.9542,0.1684,1.1191,0.2863,0.0633
+R066,S019,ocean,Ocean - direct,Rotterdam > Jebel Ali Hub > New York,2,1906.5182,11.5062,0.3936,4.3988,0.5935,0.2867
+R067,S019,ocean,Ocean - reliable hubs,Rotterdam > Tanjung Pelepas > Singapore > New York,3,2160.8872,11.5243,0.01,2.1938,0.3743,0.0
+R068,S019,sea_air,Sea-air combo,Rotterdam > Busan Hub > New York,2,4364.6308,6.4336,0.1214,2.6075,0.2645,0.0
+R069,S020,ocean,Ocean - direct,Shanghai > Los Angeles Hub > Chennai,2,855.9263,12.4871,0.5092,6.2321,0.7339,0.1503
+R070,S020,ocean,Ocean - reliable hubs,Shanghai > Busan Hub > Salalah > Chennai,3,1009.09,15.6278,0.2392,2.6053,0.3476,0.0275
+R071,S020,ocean,Ocean - chokepoint shortcut,Shanghai > Red Sea / Suez > Chennai,2,791.5409,11.2806,0.1513,3.8615,0.4294,0.9158
+R072,S021,ocean,Ocean - direct,Singapore > Los Angeles Hub > Rotterdam,2,2640.2849,25.8432,0.4255,5.9139,0.8764,0.0
+R073,S021,ocean,Ocean - reliable hubs,Singapore > Tanjung Pelepas > Singapore > Rotterdam,3,3018.3851,27.8157,0.1419,2.2275,0.363,0.0412
+R074,S021,ocean,Ocean - chokepoint shortcut,Singapore > Strait of Hormuz > Rotterdam,2,2399.1285,24.3049,0.2656,4.2194,0.3549,0.6051
+R075,S021,air,Air express,Singapore > Frankfurt > Rotterdam,2,11721.2544,3.86,0.01,1.5141,0.4075,0.0
+R076,S022,ocean,Ocean - direct,Shenzhen > Jebel Ali Hub > Hamburg,2,3294.6342,33.6962,0.4133,5.1579,0.5474,0.2758
+R077,S022,ocean,Ocean - reliable hubs,Shenzhen > Tanjung Pelepas > Hamburg,2,3832.9327,34.9526,0.1747,2.8025,0.4872,0.0825
+R078,S022,ocean,Ocean - chokepoint shortcut,Shenzhen > Black Sea > Hamburg,2,3242.9905,26.1201,0.1957,3.4103,0.409,0.7778
+R079,S023,ocean,Ocean - direct,Shanghai > Jebel Ali Hub > Chennai,2,1240.1459,12.4028,0.4369,5.6222,0.475,0.3436
+R080,S023,ocean,Ocean - reliable hubs,Shanghai > Tanjung Pelepas > Piraeus > Chennai,3,1421.0943,13.5242,0.1215,3.9356,0.5245,0.0122
+R081,S023,ocean,Ocean - chokepoint shortcut,Shanghai > Red Sea / Suez > Chennai,2,1136.0407,12.5157,0.2668,5.1986,0.5366,0.8563
+R082,S024,ocean,Ocean - direct,Mumbai > Los Angeles Hub > Felixstowe,2,1343.273,19.7024,0.4337,5.3101,0.8053,0.1695
+R083,S024,ocean,Ocean - reliable hubs,Mumbai > Cape Town > Felixstowe,2,1691.8542,21.948,0.1562,4.4304,0.2628,0.2221
+R084,S024,ocean,Ocean - chokepoint shortcut,Mumbai > Red Sea / Suez > Felixstowe,2,1283.3789,18.116,0.2648,6.0953,0.422,0.914
+R085,S024,sea_air,Sea-air combo,Mumbai > Cape Town > Felixstowe,2,2849.7006,8.6251,0.034,2.5528,0.2509,0.1928
+R086,S025,ocean,Ocean - direct,Shanghai > Colombo Hub > Chennai,2,1452.1851,13.1253,0.4067,6.2396,0.6608,0.3099
+R087,S025,ocean,Ocean - chokepoint shortcut,Shanghai > Red Sea / Suez > Chennai,2,1327.8944,9.8995,0.0909,5.1276,0.4904,0.9899
+R088,S025,sea_air,Sea-air combo,Shanghai > Singapore > Chennai,2,3204.7717,7.1987,0.0865,2.4115,0.4966,0.0879
+R089,S026,ocean,Ocean - direct,Chennai > Los Angeles Hub > Jebel Ali,2,759.4802,7.3896,0.4881,4.5704,0.8209,0.0
+R090,S026,ocean,Ocean - reliable hubs,Chennai > Salalah > Jebel Ali,2,865.2061,7.2491,0.0966,2.5418,0.323,0.3086
+R091,S026,air,Air express,Chennai > Hong Kong > Jebel Ali,2,3682.8261,2.4652,0.0672,1.9199,0.3759,0.0344
+R092,S027,ocean,Ocean - direct,Shanghai > Los Angeles Hub > Los Angeles,2,965.9722,17.1726,0.5176,5.5035,0.7344,0.1228
+R093,S027,ocean,Ocean - reliable hubs,Shanghai > Tanjung Pelepas > Los Angeles,2,1137.845,19.0618,0.1078,2.0048,0.1701,0.1799
+R094,S027,sea_air,Sea-air combo,Shanghai > Tanjung Pelepas > Los Angeles,2,1906.6164,9.0066,0.0449,1.6797,0.3382,0.1133
+R095,S027,air,Air express,Shanghai > Los Angeles,1,4652.8191,2.3684,0.1229,1.2969,0.2369,0.0499
+R096,S028,ocean,Ocean - direct,Chennai > Colombo Hub > Jebel Ali,2,922.2689,6.9602,0.3897,4.584,0.7977,0.1684
+R097,S028,ocean,Ocean - chokepoint shortcut,Chennai > Strait of Hormuz > Jebel Ali,2,860.9572,6.1408,0.3307,2.8105,0.1873,0.8492
+R098,S028,sea_air,Sea-air combo,Chennai > Cape Town > Jebel Ali,2,2200.2792,4.9066,0.1485,2.316,0.1803,0.2984
+R099,S028,air,Air express,Chennai > Jebel Ali,1,5070.4973,1.4459,0.0739,1.3008,0.1444,0.0
+R100,S029,ocean,Ocean - direct,Singapore > Jebel Ali Hub > Rotterdam,2,4022.989,24.6668,0.3582,6.9233,0.3231,0.3474
+R101,S029,ocean,Ocean - reliable hubs,Singapore > Cape Town > Busan Hub > Rotterdam,3,4119.5987,29.6253,0.1616,2.7995,0.154,0.1603
+R102,S029,air,Air express,Singapore > Rotterdam,1,18233.0022,2.4155,0.01,1.6561,0.1942,0.1646
+R103,S030,ocean,Ocean - direct,Singapore > Los Angeles Hub > Rotterdam,2,4447.4329,25.4523,0.3402,6.9582,0.6403,0.0949
+R104,S030,sea_air,Sea-air combo,Singapore > Singapore > Rotterdam,2,8771.1913,11.3466,0.2105,2.2903,0.5929,0.2002
+R105,S030,air,Air express,Singapore > Doha > Rotterdam,2,19112.1254,3.9365,0.01,2.154,0.2613,0.116
+R106,S031,ocean,Ocean - direct,Chennai > Los Angeles Hub > Jebel Ali,2,1207.8973,7.7438,0.353,4.1028,0.7541,0.0
+R107,S031,air,Air express,Chennai > Jebel Ali,1,5537.4346,1.4352,0.0605,1.1364,0.1628,0.0647
+R108,S031,ocean,Ocean - reliable hubs,Chennai > Colombo > Jebel Ali,2,1432.1133,6.8084,0.2666,2.9616,0.376,0.3313
+R109,S032,ocean,Ocean - direct,Shenzhen > Port Klang > Hamburg,2,1831.1627,29.7529,0.5124,4.5847,0.8293,0.3398
+R110,S032,ocean,Ocean - reliable hubs,Shenzhen > Cape Town > Piraeus > Hamburg,3,2111.3088,38.1141,0.1147,2.7687,0.2631,0.1638
+R111,S032,air,Air express,Shenzhen > Hamburg,1,8614.2223,3.1798,0.01,1.7347,0.1233,0.23
+R112,S033,ocean,Ocean - direct,Busan > Jebel Ali Hub > Long Beach,2,1864.093,17.2601,0.3181,6.2144,0.5018,0.1414
+R113,S033,ocean,Ocean - reliable hubs,Busan > Singapore > Tanjung Pelepas > Long Beach,3,2299.5338,18.4074,0.0572,2.329,0.2825,0.0712
+R114,S033,sea_air,Sea-air combo,Busan > Colombo > Long Beach,2,5153.3675,7.8458,0.0731,2.0792,0.3977,0.1374
+R115,S033,air,Air express,Busan > Long Beach,1,9248.2732,2.0624,0.0623,1.0111,0.1597,0.2809
+R116,S034,ocean,Ocean - direct,Rotterdam > Port Klang > New York,2,955.8977,12.1199,0.5244,5.7486,0.9116,0.0637
+R117,S034,ocean,Ocean - reliable hubs,Rotterdam > Tanjung Pelepas > Cape Town > New York,3,1326.6283,11.611,0.0283,3.1987,0.2647,0.0
+R118,S034,ocean,Ocean - chokepoint shortcut,Rotterdam > Black Sea > New York,2,1006.1683,9.6717,0.2151,5.2078,0.3146,0.7594
+R119,S034,sea_air,Sea-air combo,Rotterdam > Cape Town > New York,2,2231.4145,6.1627,0.1901,3.1503,0.15,0.0908
+R120,S035,ocean,Ocean - direct,Shenzhen > Port Klang > Hamburg,2,1586.5594,32.123,0.415,5.4261,0.7227,0.1331
+R121,S035,ocean,Ocean - reliable hubs,Shenzhen > Salalah > Hamburg,2,1966.4949,33.9141,0.264,1.7446,0.1951,0.3144
+R122,S035,ocean,Ocean - chokepoint shortcut,Shenzhen > Black Sea > Hamburg,2,1528.6645,31.2003,0.1125,3.9896,0.5562,0.8447
+R123,S035,air,Air express,Shenzhen > Hamburg,1,7273.8094,3.2375,0.01,1.3942,0.0793,0.0625
+R124,S036,ocean,Ocean - direct,Shanghai > Los Angeles Hub > Chennai,2,1177.5522,12.7153,0.434,5.2409,0.8274,0.0399
+R125,S036,ocean,Ocean - reliable hubs,Shanghai > Piraeus > Chennai,2,1323.1195,14.0331,0.162,2.3397,0.2657,0.3409
+R126,S036,ocean,Ocean - chokepoint shortcut,Shanghai > Black Sea > Chennai,2,1033.8841,11.87,0.2456,5.6093,0.2414,0.8447
+R127,S036,air,Air express,Shanghai > Chennai,1,5334.0754,1.6099,0.1007,1.8556,0.3799,0.0
+R128,S037,ocean,Ocean - direct,Shanghai > Jebel Ali Hub > Chennai,2,1668.5532,12.6596,0.2922,6.6989,0.5092,0.4735
+R129,S037,ocean,Ocean - reliable hubs,Shanghai > Tanjung Pelepas > Colombo > Chennai,3,1871.5658,13.0893,0.1252,2.8445,0.3001,0.1051
+R130,S037,ocean,Ocean - chokepoint shortcut,Shanghai > Strait of Hormuz > Chennai,2,1465.3552,9.8955,0.2253,7.1924,0.2922,0.7751
+R131,S037,air,Air express,Shanghai > Doha > Chennai,2,7693.507,2.9722,0.0468,1.148,0.0123,0.299
+R132,S038,ocean,Ocean - direct,Shenzhen > Port Klang > Hamburg,2,5355.2288,31.256,0.3158,4.0245,0.782,0.1364
+R133,S038,ocean,Ocean - reliable hubs,Shenzhen > Piraeus > Salalah > Hamburg,3,5457.5848,38.5197,0.2891,2.5736,0.3336,0.0839
+R134,S038,ocean,Ocean - chokepoint shortcut,Shenzhen > Black Sea > Hamburg,2,4043.9219,27.647,0.1595,4.5351,0.2952,0.8222
+R135,S038,sea_air,Sea-air combo,Shenzhen > Piraeus > Hamburg,2,11992.1157,12.978,0.2186,1.7206,0.6292,0.0893
+R136,S038,air,Air express,Shenzhen > Frankfurt > Hamburg,2,23339.372,4.2181,0.01,1.528,0.3586,0.0566
+R137,S039,ocean,Ocean - direct,Mumbai > Los Angeles Hub > Mombasa,2,1218.0849,8.458,0.4071,4.6056,0.6738,0.1462
+R138,S039,ocean,Ocean - reliable hubs,Mumbai > Colombo > Mombasa,2,1332.3205,8.4352,0.1619,3.9666,0.1274,0.0
+R139,S039,sea_air,Sea-air combo,Mumbai > Piraeus > Mombasa,2,2534.0797,5.4774,0.111,2.5022,0.3499,0.2105
+R140,S040,ocean,Ocean - direct,Shanghai > Colombo Hub > Rotterdam,2,5243.8126,29.125,0.4182,4.6648,0.7296,0.0426
+R141,S040,sea_air,Sea-air combo,Shanghai > Piraeus > Rotterdam,2,11260.5556,13.5142,0.1849,2.0409,0.4208,0.0754
+R142,S040,air,Air express,Shanghai > Hong Kong > Rotterdam,2,21716.9758,4.3347,0.0785,1.0102,0.2762,0.2635

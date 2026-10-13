@@ -1,0 +1,41 @@
+shipment_id,priority,recommended,service,cost_usd,p_on_time,risk,fallback,stability
+S001,standard,R002,Ocean - reliable hubs,2944,0.995,0.253,False,0.97
+S002,cost_sensitive,R006,Ocean - chokepoint shortcut,3370,1.0,0.451,False,0.9
+S003,standard,R009,Ocean - reliable hubs,1760,0.938,0.147,False,0.48
+S004,standard,R012,Ocean - direct,2702,0.99,0.368,False,0.98
+S005,cost_sensitive,R017,Ocean - reliable hubs,1052,1.0,0.157,False,0.74
+S006,cost_sensitive,R021,Ocean - chokepoint shortcut,1463,0.989,0.685,False,0.42
+S007,urgent,R025,Sea-air combo,3233,0.04,0.142,True,1.0
+S008,cost_sensitive,R026,Ocean - direct,1837,1.0,0.39,False,0.66
+S009,urgent,R032,Air express,11983,1.0,0.0,False,1.0
+S010,urgent,R035,Sea-air combo,3980,0.95,0.26,False,1.0
+S011,urgent,R040,Air express,7972,0.998,0.162,False,0.99
+S012,urgent,R043,Sea-air combo,3296,0.918,0.226,False,1.0
+S013,standard,R045,Ocean - reliable hubs,3114,0.99,0.072,False,0.54
+S014,urgent,R050,Sea-air combo,1844,0.934,0.201,False,1.0
+S015,standard,R053,Ocean - chokepoint shortcut,959,0.965,0.503,False,0.86
+S016,urgent,R058,Air express,7593,1.0,0.163,False,1.0
+S017,cost_sensitive,R060,Ocean - reliable hubs,1826,0.982,0.278,False,0.74
+S018,standard,R062,Ocean - direct,1516,0.904,0.38,False,0.67
+S019,standard,R067,Ocean - reliable hubs,2161,0.99,0.15,False,0.98
+S020,standard,R070,Ocean - reliable hubs,1009,0.926,0.156,False,0.61
+S021,standard,R074,Ocean - chokepoint shortcut,2399,0.987,0.505,False,0.6
+S022,cost_sensitive,R076,Ocean - direct,3295,0.998,0.384,False,0.74
+S023,cost_sensitive,R079,Ocean - direct,1240,0.94,0.396,False,0.61
+S024,cost_sensitive,R082,Ocean - direct,1343,0.99,0.424,False,0.91
+S025,urgent,R088,Sea-air combo,3205,0.934,0.251,False,1.0
+S026,standard,R090,Ocean - reliable hubs,865,0.922,0.314,False,0.96
+S027,standard,R093,Ocean - reliable hubs,1138,0.994,0.176,False,0.5
+S028,cost_sensitive,R097,Ocean - chokepoint shortcut,861,0.966,0.584,False,0.64
+S029,cost_sensitive,R101,Ocean - reliable hubs,4120,1.0,0.158,False,0.77
+S030,standard,R103,Ocean - direct,4447,0.93,0.313,False,0.95
+S031,standard,R106,Ocean - direct,1208,0.802,0.302,False,0.66
+S032,cost_sensitive,R109,Ocean - direct,1831,0.999,0.536,False,0.72
+S033,standard,R113,Ocean - reliable hubs,2300,0.974,0.156,False,0.56
+S034,standard,R117,Ocean - reliable hubs,1327,0.985,0.106,False,0.55
+S035,cost_sensitive,R120,Ocean - direct,1587,1.0,0.369,False,0.96
+S036,cost_sensitive,R126,Ocean - chokepoint shortcut,1034,0.977,0.603,False,0.76
+S037,cost_sensitive,R129,Ocean - reliable hubs,1872,1.0,0.183,False,0.67
+S038,cost_sensitive,R134,Ocean - chokepoint shortcut,4044,1.0,0.611,False,0.92
+S039,cost_sensitive,R138,Ocean - reliable hubs,1332,0.965,0.051,False,0.8
+S040,standard,R140,Ocean - direct,5244,0.984,0.317,False,0.99

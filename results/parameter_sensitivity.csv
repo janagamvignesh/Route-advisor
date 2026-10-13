@@ -1,0 +1,5 @@
+parameter,scale,pct_changed
+delay_prob,0.75,0.0
+delay_prob,1.25,0.025
+geo_risk,0.75,0.15
+geo_risk,1.25,0.075

@@ -1,0 +1,7 @@
+{
+  "n_shipments": 40,
+  "n_routes": 142,
+  "stability_mean": 0.80475,
+  "stability_ge85": 0.475,
+  "stability_lt60": 0.15
+}

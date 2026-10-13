@@ -1,0 +1,41 @@
+shipment_id,origin,destination,weight_t,cargo_value,priority,deadline_days,max_risk
+S001,Shanghai,Rotterdam,9.0,198900.0,standard,41.6,0.7
+S002,Shenzhen,Hamburg,13.2,168500.0,cost_sensitive,57.2,0.7
+S003,Shanghai,Los Angeles,8.1,77800.0,standard,23.1,0.7
+S004,Shenzhen,Hamburg,9.6,135200.0,standard,48.2,0.7
+S005,Rotterdam,New York,4.9,351200.0,cost_sensitive,20.3,0.5
+S006,Rotterdam,New York,14.9,33800.0,cost_sensitive,22.3,0.7
+S007,Mumbai,Mombasa,16.0,61300.0,urgent,5.0,0.7
+S008,Shenzhen,Hamburg,5.2,204000.0,cost_sensitive,61.9,0.7
+S009,Shanghai,Rotterdam,7.8,97000.0,urgent,18.3,0.7
+S010,Singapore,Rotterdam,5.8,20000.0,urgent,15.1,0.7
+S011,Shanghai,Los Angeles,8.5,519600.0,urgent,11.1,0.5
+S012,Mumbai,Felixstowe,5.3,143700.0,urgent,11.8,0.7
+S013,Singapore,Rotterdam,11.4,47800.0,standard,37.0,0.7
+S014,Shanghai,Los Angeles,2.6,28300.0,urgent,11.1,0.7
+S015,Rotterdam,New York,8.3,79800.0,standard,17.3,0.7
+S016,Shanghai,Los Angeles,8.7,107900.0,urgent,10.2,0.7
+S017,Rotterdam,New York,15.7,110100.0,cost_sensitive,19.0,0.7
+S018,Shanghai,Chennai,11.5,164200.0,standard,17.0,0.7
+S019,Rotterdam,New York,16.2,121200.0,standard,15.8,0.7
+S020,Shanghai,Chennai,3.1,137500.0,standard,19.1,0.7
+S021,Singapore,Rotterdam,10.5,151900.0,standard,36.3,0.7
+S022,Shenzhen,Hamburg,11.6,155600.0,cost_sensitive,57.2,0.7
+S023,Shanghai,Chennai,6.5,143200.0,cost_sensitive,22.7,0.7
+S024,Mumbai,Felixstowe,5.5,75700.0,cost_sensitive,35.9,0.7
+S025,Shanghai,Chennai,9.9,90000.0,urgent,9.1,0.7
+S026,Chennai,Jebel Ali,4.2,69600.0,standard,9.7,0.7
+S027,Shanghai,Los Angeles,3.0,512500.0,standard,27.2,0.5
+S028,Chennai,Jebel Ali,8.9,115200.0,cost_sensitive,14.2,0.7
+S029,Singapore,Rotterdam,17.4,30900.0,cost_sensitive,48.5,0.7
+S030,Singapore,Rotterdam,17.6,158700.0,standard,36.0,0.7
+S031,Chennai,Jebel Ali,14.7,170200.0,standard,10.8,0.7
+S032,Shenzhen,Hamburg,5.6,241900.0,cost_sensitive,52.8,0.7
+S033,Busan,Long Beach,12.1,455100.0,standard,22.0,0.5
+S034,Rotterdam,New York,6.4,115200.0,standard,17.0,0.7
+S035,Shenzhen,Hamburg,4.2,56800.0,cost_sensitive,63.1,0.7
+S036,Shanghai,Chennai,6.1,116200.0,cost_sensitive,24.8,0.7
+S037,Shanghai,Chennai,12.2,459800.0,cost_sensitive,25.5,0.5
+S038,Shenzhen,Hamburg,17.6,120700.0,cost_sensitive,60.9,0.7
+S039,Mumbai,Mombasa,10.5,44500.0,cost_sensitive,14.9,0.7
+S040,Shanghai,Rotterdam,17.8,160700.0,standard,41.5,0.7
